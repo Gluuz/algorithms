@@ -1,4 +1,3 @@
-import pytest
 from selection_sort import findSmallest, selectionSort
 
 # Tests for the findSmallest function

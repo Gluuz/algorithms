@@ -7,7 +7,8 @@ def sum(arr):
     elif len(arr) == 1:
         return arr[0]
     else:
-        # Recursive case: Return the sum of the first element and the sum of the rest of the array
+        # Recursive case: Return the sum of the 
+        # first element and the sum of the rest of the array
         return arr[0] + sum(arr[1:])
 
 
@@ -30,7 +31,8 @@ def max(arr):
     elif len(arr) == 0:
         return "error: list must contain at least one number!"
     else:
-        # Recursive case: Find the maximum number between the first element and the maximum of the rest of the array
+        # Recursive case: Find the maximum number between the 
+        #first element and the maximum of the rest of the array
         sub_max = max(arr[1:])
         return sub_max if sub_max > arr[0] else arr[0]
 
